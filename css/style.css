@@ -44,6 +44,28 @@ button. input {
     cursor: pointer;
 }
 
+.header {
+    grid-area: my-header;
+}
+
+.main {
+    grid-area: my-main;
+}
+
+.aside {
+    grid-area: my-aside;
+}
+
+.grid {
+    display: grid;
+    gap: 8rem 5.9rem;
+    grid-template-areas: 
+    "my-header my-header"
+    "my-aside my-aside"
+    "my-main my-main";
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
 
 
 
@@ -112,7 +134,7 @@ button. input {
 
 @media (max-width: 38em) {
     html {
-        font-size: 8px;
+    font-size: 8px;
     }
 }
 
