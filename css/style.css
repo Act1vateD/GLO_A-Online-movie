@@ -65,7 +65,7 @@ input {
 
 .grid {
     display: grid;
-    gap: 8rem 5.9rem;
+    gap: 8rem 0;
     grid-template-areas:
         "my-header my-header"
         "my-aside my-aside"
@@ -74,7 +74,7 @@ input {
 }
 
 .grid-init {
-    max-width: 164rem;
+    max-width: 144rem;
     margin: auto;
     padding: 3rem 2.4rem 4rem;
 }
@@ -85,12 +85,12 @@ input {
 }
 
 .header__logo {
-    font-size: 6.4rem;
+    font-size: 5rem;
     margin-right: 5rem;
 }
 
 .header__nav {
-    margin-right: 9.2rem;
+    margin-right: 4.5rem;
 }
 
 .header__nav a {
@@ -98,7 +98,7 @@ input {
 }
 
 .header__nav a:not(:last-child) {
-    margin-right: 3.5rem;
+    margin-right: 2rem;
 }
 
 .header__find {
@@ -124,6 +124,7 @@ input {
 .header__personal {
 width: 6rem;
 height: 6rem;
+border-radius: 50%;
 }
 
 .header__find input {
