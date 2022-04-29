@@ -74,7 +74,7 @@ input {
 }
 
 .grid-init {
-    max-width: 144rem;
+    max-width: 164rem;
     margin: auto;
     padding: 3rem 2.4rem 4rem;
 }
@@ -86,7 +86,7 @@ input {
 
 .header__logo {
     font-size: 6.4rem;
-    margin-right: 7rem;
+    margin-right: 5rem;
 }
 
 .header__nav {
@@ -98,19 +98,19 @@ input {
 }
 
 .header__nav a:not(:last-child) {
-    margin-right: 2.5rem;
+    margin-right: 3.5rem;
 }
 
 .header__find {
     width: 33rem;
     height: 4.1rem;
     border-radius: 8px;
-    margin-right: 3.9rem;
+    margin-right: 3.5rem;
 }
 
 .header__date {
     text-align: center;
-    margin-right: 8.6rem;
+    margin-right: 3.5rem;
 }
 
 .header__hour {
@@ -119,6 +119,11 @@ input {
 
 .header__month {
     font-size: 1.2rem;
+}
+
+.header__personal {
+width: 6rem;
+height: 6rem;
 }
 
 .header__find input {
@@ -130,7 +135,7 @@ background-position: top 50% right 0.5rem;
 background-size: 3rem;
 border-radius: 8px;
 padding-left: 1rem;
-padding-right: 8rem;
+padding-right: 5rem;
 font-size: 2rem;
 color:#FFFFFF;
 }
