@@ -154,13 +154,60 @@ input {
 }
 
 .main-dispaly__trailer {
+  position: relative;
   background: url(/img/black-trailer.jpg);
   width: 98%;
   height: 20.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 1.6rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 1.9rem 0 1.9rem 1.9rem;
+}
+
+.main-display__views {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 119%;
+}
+
+.main-display__header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 117%;
+}
+
+.main-display__date {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 114%;
+}
+
+.button-play__warp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.07);
+  width: 8.1rem;
+  height: 8.1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-play {
+  width: 0;
+  height: 0;
+  border-top: 1.5rem solid transparent;
+  border-left: 2.5rem solid #ffffff;
+  border-bottom: 1.5rem solid transparent;
+  border-radius: 0.5rem;
 }
 
 /*сетка*/
