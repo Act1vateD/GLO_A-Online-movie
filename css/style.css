@@ -210,6 +210,186 @@ input {
   border-radius: 0.5rem;
 }
 
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.title__left,
+.title__right {
+  display: flex;
+  align-items: center;
+}
+
+.title__left {
+  font-size: 2rem;
+  line-height: 115%;
+}
+
+.title__main {
+  font-size: 2rem;
+  line-height: 115%;
+}
+
+.title__count {
+  padding-top: 0.2rem;
+  margin-left: 2rem;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.title__main {
+  font-size: 2rem;
+  line-height: 115%;
+}
+
+.title__right span {
+  font-size: 1.4rem;
+  line-height: 114%;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.title__right img {
+  width: 2rem;
+  height: 1.6rem;
+}
+.trending__item {
+  background: url(/img/tanding1.jpg);
+  width: 47%;
+  height: 25.1rem;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.trending,
+.popular {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+}
+
+.trending__footer,
+.popular__footer {
+  position: relative;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 1rem 1.8rem 6.4rem;
+  border-radius: 1.6rem;
+  background: rgba(236, 228, 228, 0.3);
+}
+
+.popular__footer {
+  padding: 0.8rem 1.9rem 0.8rem 6.4rem;
+}
+
+.popular__rating {
+  display: flex;
+  align-items: center;
+}
+
+.popular__rating span {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+  margin-left: 0.4rem;
+}
+
+.trending__header {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+.popular__header {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.popular__date {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 113%;
+}
+
+.trending__date {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.trending__time {
+  padding: 0.4rem 1.3rem;
+  background: #ffffff;
+  border-radius: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 114%;
+  color: #000000;
+}
+
+.trending__plash {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.4rem;
+  line-height: 114%;
+  border-radius: 1.6rem;
+  background: rgba(236, 228, 228, 0.3);
+  padding: 0.4rem 1.3rem;
+}
+
+.small {
+  width: 5rem;
+  height: 5rem;
+  left: 7%;
+}
+
+.small-plus {
+  width: 3rem;
+  height: 3rem;
+  left: 10%;
+}
+
+.button-play__warp.small .button-play {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-left: 1.5rem solid #ffffff;
+  border-bottom: 1rem solid transparent;
+  border-radius: 0.2rem;
+}
+
+.button-play__warp.small-plus .button-play {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-left: 1rem solid #ffffff;
+  border-bottom: 0.5rem solid transparent;
+  border-radius: 0.2rem;
+}
+
+.popular__item {
+  background: url(/img/popular.jpg);
+  width: 30%;
+  height: 19.2rem;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /*сетка*/
 
 @media (max-width: 108em) {
