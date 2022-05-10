@@ -609,6 +609,23 @@ input {
   width: 100%;
   height: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 0;
+  z-index: 1000;
+  display: none;
+}
+
+.modal__inner {
+  width: 130rem;
+  height: 90rem;
+}
+
+.active {
+  display: flex;
 }
 
 /*сетка*/
